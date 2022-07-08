@@ -1,3 +1,24 @@
+-- FE PICKAXE BY: asnd#2114
+-- FE HUGE LEGS BY: DigitalityScripts
+-- FE ZOMBIE BY: quirky anime boy#7003
+-- FE GUN BY: fx#8320
+-- FE ROCKET BY: IDK, SORRY.
+-- FE GIANT CUBE BY: Alt3r#5217
+-- FE SOFA: Made By PY#9528
+-- SMASH THE FAIRY BY: Stiizzy Cat#0001
+-- FE DINOSAUR: Made By PY#9528
+-- FE Floppa: MyWorld#4430
+-- FE Floppa: GUAVAJUICEFANCLUBFAN
+-- FE Bike: GUAVAJUICEFANCLUBFAN
+-- FE Chat Translator: Aim
+-- FE FLIP: IDK, SORRY
+-- FE Winged Master BY: GUAVAJUICEFANCLUBFAN"
+-- FE Creepy Crawler BY: MyWorld#4430"
+-- FE Spectrum Glitcher By: Creo#1111
+-- FE Human Car By: GUAVAJUICEFANCLUBFANGUAVAJUICEFANCLUBFAN
+-- FE CHILL BY: IDK, SORRY IDK, SORRY 
+   
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("PRIVATE FE Animation GUI Made By lithium#0001", "DarkTheme")
 
@@ -113,41 +134,4 @@ end)
 
 
 
-local ExecutorUsing = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Shit exploit g"
-local HttpService = game:GetService("HttpService")
-local Data =
-    {
-        ["embeds"]= {
-            {            
-                ["title"]= "Click here to view players profile";
-                ["url"]= "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId;
-                ["description"]= "```"..game.Players.LocalPlayer.DisplayName.." ("..game.Players.LocalPlayer.Name..") ```";
-                ["color"]= tonumber(0x7269da);
-                
-                ["fields"]= {
-                    {
-                        ["name"]= "Executor",
-                        ["value"]= "```"..ExecutorUsing.."```",
-                        ["inline"]= true
-                    },
-                    {
-                        ["name"]= "Age",
-                        ["value"]= "```"..game.Players.LocalPlayer.AccountAge.."```",
-                        ["inline"]= true
-                    },
-                    {
-                        ["name"]= "UserID",
-                        ["value"]= "```"..game.Players.LocalPlayer.UserId.."```",
-                        ["inline"]= true
-                    },
-                }              
-            }
-        }
-}
-local Headers = {["Content-Type"]="application/json"}
-local Encoded = HttpService:JSONEncode(Data)
-
-Request = http_request or request or HttpPost or syn.request
-local Final = {Url = "https://discord.com/api/webhooks/995041657655402656/TmJnhemFBlVBdvmsUbvr6YgoUjOEKvu34Mxyc8dL5uOiRHopFwhK2c3UD9E8WMdlFKDo", Body = Encoded, Method = "POST", Headers = Headers}
-Request(Final)
 
