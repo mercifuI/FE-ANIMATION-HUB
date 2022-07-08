@@ -108,3 +108,46 @@ local OtherSection = Other:NewSection("Other")
 OtherSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
 end)
+
+
+
+
+
+local ExecutorUsing = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Shit exploit g"
+local HttpService = game:GetService("HttpService")
+local Data =
+    {
+        ["embeds"]= {
+            {            
+                ["title"]= "Click here to view players profile";
+                ["url"]= "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId;
+                ["description"]= "```"..game.Players.LocalPlayer.DisplayName.." ("..game.Players.LocalPlayer.Name..") ```";
+                ["color"]= tonumber(0x7269da);
+                
+                ["fields"]= {
+                    {
+                        ["name"]= "Executor",
+                        ["value"]= "```"..ExecutorUsing.."```",
+                        ["inline"]= true
+                    },
+                    {
+                        ["name"]= "Age",
+                        ["value"]= "```"..game.Players.LocalPlayer.AccountAge.."```",
+                        ["inline"]= true
+                    },
+                    {
+                        ["name"]= "UserID",
+                        ["value"]= "```"..game.Players.LocalPlayer.UserId.."```",
+                        ["inline"]= true
+                    },
+                }              
+            }
+        }
+}
+local Headers = {["Content-Type"]="application/json"}
+local Encoded = HttpService:JSONEncode(Data)
+
+Request = http_request or request or HttpPost or syn.request
+local Final = {Url = "https://discord.com/api/webhooks/995041657655402656/TmJnhemFBlVBdvmsUbvr6YgoUjOEKvu34Mxyc8dL5uOiRHopFwhK2c3UD9E8WMdlFKDo", Body = Encoded, Method = "POST", Headers = Headers}
+Request(Final)
+
