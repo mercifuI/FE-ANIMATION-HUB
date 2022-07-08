@@ -26,7 +26,7 @@ loadstring(game:HttpGet('https://pastebin.com/raw/VdjwQwNr'))()
 end)
 
 MainSection:NewButton("FE Spectrum Glitcher", "NEED ANY 6 HATS", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/obamium/main/spectrum%20glitcher%20fe.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/FE-ANIMATION-HUB/main/animationhub.lua"))();
 end)
 
 MainSection:NewButton("FE Creepy Crawler", "dark eccentric is my father", function()
@@ -49,6 +49,10 @@ end)
 
 MainSectionLol:NewButton("Fates Admin", "FE Admin Commands", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+MainSectionLol:NewButton("FE CHAT TRANSLATOR", "Made by aim", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/fe-chat-translator.lua/main/fe%20chat%20translator.lua"))();
 end)
 
 
@@ -80,6 +84,17 @@ MainSectionxd:NewButton("FE ROCKET", "dm me for list its all free", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/dxew16E1"))();
 end)
 
+MainSectionxd:NewButton("FE GUN", "dm me for list its all free", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/siGRed0f"))();
+end)
+
+MainSectionxd:NewButton("FE Zombie", ">bring, >range default is 80, >idle is really laggy", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/fezombie/main/fezombie.lua"))();
+end)
+
+MainSectionxd:NewButton("FE PICKAXE", "dark eccentric is my father", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/VRzxhJ3B"))();
+end)
 
 Niggaballs:NewButton("FE HUGE LEGS", "lithium#0001", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Leg%20Resize'))()
