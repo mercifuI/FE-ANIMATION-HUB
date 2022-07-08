@@ -1,0 +1,95 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("PRIVATE FE Animation GUI Made By lithium#0001", "DarkTheme")
+
+--Main
+local Main = Window:NewTab("FE R6")
+local MainSection = Main:NewSection("R6 Animations")
+local MainSectionLol = Window:NewTab("Misc")
+local MainSectionLol = MainSectionLol:NewSection("Misc")
+local MainSectionxd = Window:NewTab("FE R6 Hat Required Scripts")
+local MainSectionxd = MainSectionxd:NewSection("Hat Required Scripts")
+local Niggaballs = Window:NewTab("FE R15 SCRIPTS")
+local Niggaballs = Niggaballs:NewSection("FE R15 SCRIPTS")
+
+
+MainSection:NewButton("FE Chill", "FE Chill", function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/XmHFdTij"))()
+end)
+
+
+MainSection:NewButton("FE Flip", "FE Flip", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
+end)
+
+MainSection:NewButton("Fe Human Car", "Fe Human Car", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/VdjwQwNr'))()
+end)
+
+MainSection:NewButton("FE Spectrum Glitcher", "NEED ANY 6 HATS", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/obamium/main/spectrum%20glitcher%20fe.lua"))();
+end)
+
+MainSection:NewButton("FE Creepy Crawler", "dark eccentric is my father", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/jXgzXDA0'))()
+end)
+
+MainSection:NewButton("FE Winged Master", "dark eccentric is my father", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/DdGdPWYP'))()
+end)
+
+MainSectionLol:NewToggle("Walkspeed and JP", "WS 120 JP 120", function(state)
+if state then
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+   game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+else
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+   game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+end
+end)
+
+MainSectionLol:NewButton("Fates Admin", "FE Admin Commands", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+
+MainSectionxd:NewButton("FE Bike", "DM Me On How To Get The Bike", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/piT5EHs5"))();
+end)
+
+MainSectionxd:NewButton("Fe Floppa", "DM Me For The Shirt", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/CcrdzJHu"))();
+end)
+
+MainSectionxd:NewButton("Fe Dinosaur", "DM Me For Item List", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/PYXDYT/DinoBlox/main/FE%20Script'),true))()
+end)
+
+MainSectionxd:NewButton("FE Smash The Fairy", "Beesim on shoulder nd boomer moustahce", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/StiizzyCat/SynapseScripts/main/Smash-The-Fairy.lua'),true))()
+end)
+
+MainSectionxd:NewButton("FE SOFA", "im tired of writing this out", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/9qnY2Fwp'),true))()
+end)
+
+MainSectionxd:NewButton("FE GIANT CUBE", "dm for item list", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/AWtDiKJn"))();
+end)
+
+MainSectionxd:NewButton("FE ROCKET", "dm me for list its all free", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/dxew16E1"))();
+end)
+
+
+Niggaballs:NewButton("FE HUGE LEGS", "lithium#0001", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Leg%20Resize'))()
+end)
+
+
+--Other
+local Other = Window:NewTab("Other")
+local OtherSection = Other:NewSection("Other")
+
+OtherSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
+end)
