@@ -47,6 +47,8 @@ local MainSectionLol = Window:NewTab("Misc")
 local MainSectionLol = MainSectionLol:NewSection("Misc")
 local MainSectionxd = Window:NewTab("FE R6 Hat Required Scripts")
 local MainSectionxd = MainSectionxd:NewSection("Hat Required Scripts")
+local Ilosther = Window:NewTab("FE Pet Scripts")
+local Ilosther = Ilosther:NewSection("FE Pet Scripts")
 local Niggaballs = Window:NewTab("FE R15 SCRIPTS")
 local Niggaballs = Niggaballs:NewSection("FE R15 SCRIPTS")
 local Specific = Window:NewTab("Specific Games")
@@ -160,9 +162,10 @@ MainSectionxd:NewButton("FE SAITAMA", "ONE-PUNCHHHHH", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/84jdgaWe"))();
 end)
 
-Mainsectionxd:NewButton("FE DOG PET", "woof", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/ldfsi/main/fe%20dog.lua"))();
+Ilosther:NewButton("FE DOG PET", "woof", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/ldfsi/main/dog"))();
 end)
+
 
 Niggaballs:NewButton("FE HUGE LEGS", "lithium#0001", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Leg%20Resize'))()
