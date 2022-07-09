@@ -35,7 +35,7 @@
 
    
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("PRIVATE FE Animation GUI Made By lithium#0001", "DarkTheme")
+local Window = Library.CreateLib("FE Animation Hub Made By lithium#0001. My Roblox is pradaasv", "DarkTheme")
 
 --Main
 local Main = Window:NewTab("FE R6")
