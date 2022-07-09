@@ -20,7 +20,9 @@
 -- FE HEADSPIN BY: IDK, SORRY.
 -- FE SAITAMA BY: mugaga#2801
 -- FE FEARFUL BY: flashremasted
+-- FE CLASSIC ANIMATIONS BY: IDK, SORRY.
 -- FE R15 BREAKDANCE BY: usernamesareforgeeks1#0860
+
    
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -68,6 +70,10 @@ end)
 
 MainSection:NewButton("FE Headspin", "dark eccentric is my father", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/cSsP2xre"))()
+end)
+
+MainSection:NewButton("FE 2007 Animations", "dark eccentric is my father", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/5LaDx48G"))()
 end)
 
 MainSectionLol:NewToggle("Walkspeed and JP", "WS 120 JP 120", function(state)
