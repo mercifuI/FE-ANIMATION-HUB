@@ -47,7 +47,7 @@ loadstring(game:HttpGet('https://pastebin.com/raw/VdjwQwNr'))()
 end)
 
 MainSection:NewButton("FE Spectrum Glitcher", "NEED ANY 6 HATS", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/FE-ANIMATION-HUB/main/animationhub.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/fawffds/main/spectrum%20glitcher%20fe.lua))();
 end)
 
 MainSection:NewButton("FE Creepy Crawler", "dark eccentric is my father", function()
