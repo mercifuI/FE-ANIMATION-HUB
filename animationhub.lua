@@ -136,6 +136,10 @@ Niggaballs:NewButton("FE HUGE LEGS", "lithium#0001", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Leg%20Resize'))()
 end)
 
+Niggaballs:NewButton("FE Breakdance", "usernamesareforgeeks1#0860", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/d3Sh9sTe"))();
+end)
+
 
 --Other
 local Other = Window:NewTab("Other")
