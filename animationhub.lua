@@ -22,6 +22,7 @@
 -- FE FEARFUL BY: flashremasted
 -- FE CLASSIC ANIMATIONS BY: IDK, SORRY.
 -- FE R15 BREAKDANCE BY: usernamesareforgeeks1#0860
+-- FE WINGS BY: IDK, SORRY.
 
    
 
@@ -37,6 +38,8 @@ local MainSectionxd = Window:NewTab("FE R6 Hat Required Scripts")
 local MainSectionxd = MainSectionxd:NewSection("Hat Required Scripts")
 local Niggaballs = Window:NewTab("FE R15 SCRIPTS")
 local Niggaballs = Niggaballs:NewSection("FE R15 SCRIPTS")
+local Specific = Window:NewTab("Specific Games")
+local Specific = Specific:NewSection("Read info on all scripts")
 
 
 MainSection:NewButton("FE Chill", "FE Chill", function()
@@ -145,6 +148,10 @@ end)
 
 Niggaballs:NewButton("FE Breakdance", "usernamesareforgeeks1#0860", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/d3Sh9sTe"))();
+end)
+
+Specific:NewButton("FE Wings", "Life In Paradise and adopt and raise a baby", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/EzSrgaqc"))();
 end)
 
 
