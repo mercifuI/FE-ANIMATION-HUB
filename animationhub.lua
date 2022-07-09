@@ -159,16 +159,16 @@ MainSectionxd:NewButton("FE SAITAMA", "ONE-PUNCHHHHH", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/84jdgaWe"))();
 end)
 
+Mainsectionxd:NewButton("FE DOG PET", "woof", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/ldfsi/main/fe%20dog.lua"))();
+end)
+
 Niggaballs:NewButton("FE HUGE LEGS", "lithium#0001", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Leg%20Resize'))()
 end)
 
 Niggaballs:NewButton("FE Breakdance", "usernamesareforgeeks1#0860", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/d3Sh9sTe"))();
-end)
-
-Niggaballs:NewButton("FE Ball R6 AS WELL", "MyWorld#4430", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/fe-ball/main/ball.lua"))();#
 end)
 
 Specific:NewButton("FE Wings", "Life In Paradise and adopt and raise a baby", function()
