@@ -16,7 +16,8 @@
 -- FE Creepy Crawler BY: MyWorld#4430"
 -- FE Spectrum Glitcher By: Creo#1111
 -- FE Human Car By: GUAVAJUICEFANCLUBFANGUAVAJUICEFANCLUBFAN
--- FE CHILL BY: IDK, SORRY IDK, SORRY 
+-- FE CHILL BY: IDK, SORRY 
+-- FE HEADSPIN BY: IDK, SORRY.
    
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -56,6 +57,10 @@ end)
 
 MainSection:NewButton("FE Winged Master", "dark eccentric is my father", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/DdGdPWYP'))()
+end)
+
+MainSection:NewButton("FE Headspin", "dark eccentric is my father", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/cSsP2xre"))()
 end)
 
 MainSectionLol:NewToggle("Walkspeed and JP", "WS 120 JP 120", function(state)
