@@ -1,3 +1,11 @@
+-- We do not log any user data, including IPs, HWID, Username, Executor, UserID, Account age.
+-- If a premium version is released, it will HAVE to log Username and UserID. We will always alert you about this. If your account is terminated or want to 
+-- switch to another account, let us know and our staff team will whitelist you.
+-- This script will remain open sourced.
+-- Staff will NEVER ask for account credentials.
+-- This script will never log anyone.
+-- https://discord.gg/XCtygMp7Mp (OFFICAL SERVER. DO NOT TRUST ANY OTHER SERVERS)
+
 -- FE PICKAXE BY: asnd#2114
 -- FE HUGE LEGS BY: DigitalityScripts
 -- FE ZOMBIE BY: quirky anime boy#7003
@@ -23,12 +31,9 @@
 -- FE CLASSIC ANIMATIONS BY: IDK, SORRY.
 -- FE R15 BREAKDANCE BY: usernamesareforgeeks1#0860
 -- FE WINGS BY: IDK, SORRY.
--- FE BILLY (GOOFY ANIMATION) BY: Impostr#7910
--- FE INVISIBLE CAR BY: ferretboii#2398/catboy19jan2038
 -- FE GRAB CLAW BY: IDK, SORRY.
 
    
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("PRIVATE FE Animation GUI Made By lithium#0001", "DarkTheme")
 
@@ -70,7 +75,7 @@ MainSection:NewButton("FE Winged Master", "dark eccentric is my father", functio
 loadstring(game:HttpGet('https://pastebin.com/raw/DdGdPWYP'))()
 end)
 
-MainSection:NewButton("FE Fearful", "no-one sees the pumpkin head", function()
+MainSection:NewButton("FE Fearful", "nobody sees the pumpkin head", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/mRqRF5mY"))()
 end)
 
@@ -80,14 +85,6 @@ end)
 
 MainSection:NewButton("FE 2007 Animations", "dark eccentric is my father", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/5LaDx48G"))()
-end)
-
-MainSection:NewButton("FE Billy (GOOFY)", "Impostr#7910", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/HgVqVzT0"))()
-end)
-
-MainSection:NewButton("Fe Invisible Car", "ferretboii#2398/catboy19jan2038", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/HgVqVzT0"))()
 end)
 
 MainSectionLol:NewToggle("Walkspeed and JP", "WS 120 JP 120", function(state)
@@ -107,7 +104,6 @@ end)
 MainSectionLol:NewButton("FE CHAT TRANSLATOR", "Made by aim", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/fe-chat-translator.lua/main/fe%20chat%20translator.lua"))();
 end)
-
 
 MainSectionxd:NewButton("FE Bike", "DM Me On How To Get The Bike", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/piT5EHs5"))();
@@ -150,7 +146,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/VRzxhJ3B"))();
 end)
 
 MainSectionxd:NewButton("FE Grab Claw", "mr. krabs", function()
-loadstring(game::HttpGet("https://raw.githubusercontent.com/mercifuI/grab-claw/main/grabclaw.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/grab-claw/main/grabclaw.lua"))();
 end)
 
 MainSectionxd:NewButton("FE SAITAMA", "ONE-PUNCHHHHH", function()
