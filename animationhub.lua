@@ -18,6 +18,7 @@
 -- FE Human Car By: GUAVAJUICEFANCLUBFANGUAVAJUICEFANCLUBFAN
 -- FE CHILL BY: IDK, SORRY 
 -- FE HEADSPIN BY: IDK, SORRY.
+-- FE SAITAMA BY: mugaga#2801
    
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -120,6 +121,10 @@ end)
 
 MainSectionxd:NewButton("FE PICKAXE", "dark eccentric is my father", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/VRzxhJ3B"))();
+end)
+
+MainSectionxd:NewButton("FE SAITAMA", "ONE-PUNCHHHHH", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/84jdgaWe"))();
 end)
 
 Niggaballs:NewButton("FE HUGE LEGS", "lithium#0001", function()
