@@ -34,6 +34,7 @@
 -- FE GRAB CLAW BY: IDK, SORRY.
 -- FE INVISIBLE CAR BY: ferretboii#2398/catboy19jan2038
 -- FE BALL: MyWorld#4430
+-- FE DOG BY: MyWorld#4430 (srs this guy is fucking nuts go show him so love)
 
    
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
