@@ -19,6 +19,7 @@
 -- FE CHILL BY: IDK, SORRY 
 -- FE HEADSPIN BY: IDK, SORRY.
 -- FE SAITAMA BY: mugaga#2801
+-- FE FEARFUL BY: flashremasted
    
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -58,6 +59,10 @@ end)
 
 MainSection:NewButton("FE Winged Master", "dark eccentric is my father", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/DdGdPWYP'))()
+end)
+
+MainSection:NewButton("FE Fearful", "no-one sees the pumpkin head", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/mRqRF5mY"))()
 end)
 
 MainSection:NewButton("FE Headspin", "dark eccentric is my father", function()
