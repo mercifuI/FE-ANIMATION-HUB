@@ -47,7 +47,7 @@ loadstring(game:HttpGet('https://pastebin.com/raw/VdjwQwNr'))()
 end)
 
 MainSection:NewButton("FE Spectrum Glitcher", "NEED ANY 6 HATS", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/fawffds/main/spectrumglitcher.lua))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/fawffds/main/spectrumglitcher.lua"))();
 end)
 
 MainSection:NewButton("FE Creepy Crawler", "dark eccentric is my father", function()
@@ -129,9 +129,3 @@ local OtherSection = Other:NewSection("Other")
 OtherSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
 end)
-
-
-
-
-
-
