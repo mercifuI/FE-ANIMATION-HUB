@@ -24,6 +24,7 @@
 -- FE R15 BREAKDANCE BY: usernamesareforgeeks1#0860
 -- FE WINGS BY: IDK, SORRY.
 -- FE BILLY (GOOFY ANIMATION) BY: Impostr#7910
+-- FE INVISIBLE CAR BY: ferretboii#2398/catboy19jan2038
 
    
 
@@ -82,6 +83,11 @@ end)
 
 MainSection:NewButton("FE Billy (GOOFY)", "Impostr#7910", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/HgVqVzT0"))()
+end)
+
+MainSection:NewButton("Fe Invisible Car", "ferretboii#2398/catboy19jan2038", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/HgVqVzT0"))()
+end)
 
 MainSectionLol:NewToggle("Walkspeed and JP", "WS 120 JP 120", function(state)
 if state then
