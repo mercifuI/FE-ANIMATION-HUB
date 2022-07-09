@@ -33,6 +33,7 @@
 -- FE WINGS BY: IDK, SORRY.
 -- FE GRAB CLAW BY: IDK, SORRY.
 -- FE INVISIBLE CAR BY: ferretboii#2398/catboy19jan2038
+-- FE BALL: MyWorld#4430
 
    
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -164,6 +165,10 @@ end)
 
 Niggaballs:NewButton("FE Breakdance", "usernamesareforgeeks1#0860", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/d3Sh9sTe"))();
+end)
+
+Niggaballs:NewButton("FE Ball R6 AS WELL", "MyWorld#4430", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mercifuI/fe-ball/main/ball.lua"))();#
 end)
 
 Specific:NewButton("FE Wings", "Life In Paradise and adopt and raise a baby", function()
