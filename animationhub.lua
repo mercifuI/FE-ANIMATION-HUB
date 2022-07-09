@@ -32,6 +32,8 @@
 -- FE R15 BREAKDANCE BY: usernamesareforgeeks1#0860
 -- FE WINGS BY: IDK, SORRY.
 -- FE GRAB CLAW BY: IDK, SORRY.
+-- FE INVISIBLE CAR BY: ferretboii#2398/catboy19jan2038
+-- FE BILLY BY: Impostr#7910
 
    
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -85,6 +87,14 @@ end)
 
 MainSection:NewButton("FE 2007 Animations", "dark eccentric is my father", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/5LaDx48G"))()
+end)
+
+MainSection:NewButton("FE Invisible Car", "ferretboii#2398/catboy19jan2038", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/6ySdfCrR"))()
+end)
+
+MainSection:NewButton("FE Billy", "Impostr#7910", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/tcSwvB8p"))()
 end)
 
 MainSectionLol:NewToggle("Walkspeed and JP", "WS 120 JP 120", function(state)
