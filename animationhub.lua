@@ -25,6 +25,7 @@
 -- FE WINGS BY: IDK, SORRY.
 -- FE BILLY (GOOFY ANIMATION) BY: Impostr#7910
 -- FE INVISIBLE CAR BY: ferretboii#2398/catboy19jan2038
+-- FE GRAB CLAW BY: IDK, SORRY.
 
    
 
@@ -146,6 +147,10 @@ end)
 
 MainSectionxd:NewButton("FE PICKAXE", "dark eccentric is my father", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/VRzxhJ3B"))();
+end)
+
+MainSectionxd:NewButton("FE Grab Claw", "mr. krabs", function()
+loadstring(game::HttpGet("https://raw.githubusercontent.com/mercifuI/grab-claw/main/grabclaw.lua"))();
 end)
 
 MainSectionxd:NewButton("FE SAITAMA", "ONE-PUNCHHHHH", function()
